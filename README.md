@@ -1,9 +1,9 @@
-# Spring Rabbitmq Samples
-Rabbitmq Samples using Spring Boot
+# Spring RabbitMQ Samples
+RabbitMQ Samples using Spring Boot
 
-<img src="https://github.com/susimsek/spring-rabbitmq-samples/blob/main/images/introduction.png" alt="Spring Boot Rabbitmq Samples" width="100%" height="100%"/> 
+<img src="https://github.com/susimsek/spring-rabbitmq-samples/blob/main/images/introduction.png" alt="Spring Boot RabbitMQ Samples" width="100%" height="100%"/> 
 
-# Rabbitmq
+# RabbitMQ
 
 Spring AMQP comprises two modules: spring-amqp and spring-rabbit. Together, these modules provide abstractions for:
 
@@ -17,7 +17,7 @@ Message Consumption – we use a @RabbitListener to read messages from a queue
 * Java 17
 * Kotlin
 * Maven 3.x
-* Rabbitmq
+* RabbitMQ
 
 
 ## Build
@@ -72,7 +72,7 @@ mvn verify jib:dockerBuild
 * Sonarqube
 * Detekt
 * Checkstyle
-* Rabbitmq
+* RabbitMQ
 * Spring Boot 3.x
 * Spring Boot Amqp
 * Spring Boot Web
